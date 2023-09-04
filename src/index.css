@@ -77,10 +77,10 @@ nav a:active {
   min-height: 400px;
 }
 
-#project-list {
+div #project-list{
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   max-width: 800px;
 }
@@ -101,7 +101,7 @@ nav a:active {
 
 @media (min-width: 700px) {
   #project-list {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .project-item {
